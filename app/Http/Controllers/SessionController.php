@@ -12,7 +12,7 @@ class SessionController extends Controller
         return view('auth.login');
     }
 
-
+					
     public function store() {
         
         if(auth()->attempt(request(['email', 'password'])) == false) {
@@ -35,5 +35,6 @@ class SessionController extends Controller
         auth()->logout();
 
         return redirect()->to('/');
+
     }
 }

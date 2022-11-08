@@ -9,6 +9,7 @@ use Illuminate\Routing\Controller as BaseController;
 
 //hola que onda jorge?? 
 //como adnamios?
+// very good
 
 class Controller extends BaseController
 {
